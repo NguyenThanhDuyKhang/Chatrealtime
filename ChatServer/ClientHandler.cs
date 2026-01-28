@@ -60,5 +60,46 @@ namespace ChatServer
                 Close();
             }
         }
+                private void HandlePacket(Packet packet)
+        {
+            switch (packet.Type)
+            {
+                case PacketType.Login:
+                    Username = packet.Sender;
+                    _serverForm.Log($"User logged in: {Username}");
+                    SendPacket(new Packet(PacketType.Message, "Server", $"Welcome {Username} to the chat! Type /help for commands."));
+                    
+                    // [MỚI] Gửi lại lịch sử chat cho người mới vào
+                    var history = _serverForm.GetRecentHistory();
+                    foreach (var oldPacket in history)
+                    {
+                        SendPacket(oldPacket);
+                    }
+                    break;
+
+                case PacketType.Message:
+                    _serverForm.Log($"{packet.Sender}: {packet.Content}");
+                    _serverForm.BroadcastPacket(packet);
+
+                    // [MỚI] CHAT BOT LOGIC
+                    if (packet.Content.StartsWith("/"))
+                    {
+                        ProcessBotCommand(packet.Content);
+                    }
+                    break;
+
+                case PacketType.File:
+                    _serverForm.Log($"{packet.Sender} sent file: {packet.FileName} ({packet.FileData?.Length} bytes)");
+                    _serverForm.BroadcastPacket(packet);
+                    break;
+
+                case PacketType.Typing:
+                    // Server nhận được tin báo A đang gõ -> Broadcast cho mọi người biết (trừ A)
+                    // Để đơn giản ta cứ broadcast hết, Client tự lọc
+                     _serverForm.BroadcastPacket(packet);
+                    break;
+            }
+        }
+        
     }   
 }     
