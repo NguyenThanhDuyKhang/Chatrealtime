@@ -100,6 +100,63 @@ namespace ChatServer
                     break;
             }
         }
-        
+           // [MỚI] Xử lý lệnh Bot
+   private void ProcessBotCommand(string command)
+   {
+       string reply = "";
+       string cmd = command.ToLower().Trim();
+
+       if (cmd == "/time")
+       {
+           reply = $"Server time is: {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}";
+       }
+       else if (cmd == "/roll")
+       {
+           Random rnd = new Random();
+           reply = $"{Username} rolled a lucky number: {rnd.Next(1, 100)}";
+       }
+       else if (cmd == "/help")
+       {
+           reply = "Bot Commands: /time (Show time), /roll (Random number), /help";
+       }
+       else
+       {
+           return; // Không phải lệnh hợp lệ thì thôi
+       }
+
+       // Tạo gói tin từ Bot gửi đi
+       Packet botPacket = new Packet(PacketType.Message, "Bot", reply);
+       _serverForm.BroadcastPacket(botPacket);
+   }
+
+   public void SendPacket(Packet packet)
+   {
+       try
+       {
+           // Serialize Packet -> JSON -> Bytes
+           string json = JsonSerializer.Serialize(packet);
+           byte[] contentBytes = Encoding.UTF8.GetBytes(json);
+           
+           // Tạo Header chứa độ dài (4 bytes)
+           byte[] lengthBytes = BitConverter.GetBytes(contentBytes.Length);
+
+           lock(_stream) 
+           {
+               _stream.Write(lengthBytes, 0, 4);
+               _stream.Write(contentBytes, 0, contentBytes.Length);
+           }
+       }
+       catch 
+       {
+            // Lỗi gửi tin (Socket có thể đã đóng)
+       }
+   }
+
+      public void Close()
+      {
+       _stream?.Close();
+       _tcpClient?.Close();
+       _serverForm.RemoveClient(this);
+      }
     }   
 }     
