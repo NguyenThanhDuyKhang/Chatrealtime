@@ -1,0 +1,36 @@
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.exe
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.deps.json
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.runtimeconfig.json
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.dll
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.pdb
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatShared.dll
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatShared.pdb
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.csproj.AssemblyReference.cache
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.AssemblyInfoInputs.cache
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.AssemblyInfo.cs
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.csproj.Up2Date
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.dll
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\refint\ChatClient.dll
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.pdb
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.genruntimeconfig.cache
+C:\Users\tm987\OneDrive\Dokumen\Pet-Project\Đồ án 2\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ref\ChatClient.dll
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.exe
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.deps.json
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.runtimeconfig.json
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.dll
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatClient.pdb
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatShared.dll
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\bin\Debug\net9.0-windows\ChatShared.pdb
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.csproj.AssemblyReference.cache
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.AssemblyInfoInputs.cache
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.AssemblyInfo.cs
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.csproj.Up2Date
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.dll
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\refint\ChatClient.dll
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.pdb
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ChatClient.genruntimeconfig.cache
+D:\Downloads\APP\ChatRealTimeSocket\ChatClient\obj\Debug\net9.0-windows\ref\ChatClient.dll
